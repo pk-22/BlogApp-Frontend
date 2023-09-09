@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+.prev {
+    height: 100%;
+    width: 43%;
+    display: grid;
+    align-items: flex-start;
+    position: relative;
+    left: 26%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color:white;
+    padding-top: 3rem!important;
+    padding-left:3%;
+    padding-right:3%;
+    font-size: 22px;
+    color: black;
+    grid-template-columns: 1;
+}
+
+
+.blog{
+    display: flex;
+    position: relative;
+    float: left;
+    align-items: flex-start;
+    word-wrap: normal;
+    font-size: 22px;
+    color: black;
+    margin-right: 0;
+    margin-bottom: 3rem;
+    padding-top:1.5rem;
+}
+.blog-prev-contents{
+    margin:0px 15px 12px;
+}
+.thumbnail-image {
+    margin-right: 0.75rem;
+    display: block;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: rgb(201, 195, 195);
+    margin-right: 0.4rem;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+.blog-link {
+    text-decoration: none;
+    position: relative;
+    word-wrap: normal;
+    display: block;
+    text-transform: uppercase;
+    transition: color 0.1s, background-color 0.1s;
+    color: black;
+    font-family: "Lora",Arial,serif;
+    font-size:30px;
+    margin-top: 0;
+}
+.head3 {
+    margin-top:0;
+    font-weight:400;
+}
+.meta {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: rgb(201, 195, 195);
+    margin: 0px 10px 10px 0px;
+    font-family: 'Poppins',Arial,sans-serif;
+    margin-bottom: 1rem!important;
+}
+
+.meta-indv{
+    margin: 0px 10px 0px 0px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.meta-indv2{
+    margin: 0px 10px 0px 0px;
+    display: inline-flex;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+}
+
+.blog-start{
+    color: #666;
+    font-size:15px;
+    line-height: 1.8;
+    font-family: 'Poppins',Arial, sans-serif;
+    margin-bottom: 1.5rem!important;
+    
+}
+
+.blog-rdmore{
+    color: #1eafed;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-family: 'Poppins',Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+}
