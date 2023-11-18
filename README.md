@@ -1,3 +1,3 @@
-Build frontend for blogwebsite in react
+Built frontend for blogwebsite in react
 
 
